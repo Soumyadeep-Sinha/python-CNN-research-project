@@ -21,7 +21,7 @@ timeout_start_time = time.time()
 
 def is_hand_on_button(hand_landmarks, button_position):
     if hand_landmarks is None:
-        return False
+        return False  
 
     x, y = button_position
     button_rect = (x, y, 100, 100)
